@@ -1,0 +1,96 @@
+body {
+  background: url("../images/seigaiha/seigaiha.png");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* general */
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  display: block;
+  margin: auto; 
+  clear: both; 
+  padding: 20px;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+#masthead {
+  background-color: #189e79;
+  padding: 25px;
+  width: 100%;
+  clear: both;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 60px;
+  text-align: center;
+  word-spacing: 30px;
+  letter-spacing: 30px;
+  color: #eee;
+
+}
+
+#main-container {
+  margin-top: 20px;
+
+}
+
+.instructions {
+ background-color: #a9d8cb;
+ padding: 20px;
+ margin-bottom: 20px;
+}
+
+#randomNumber {
+  background-color: #4f917f;
+  margin-bottom: 20px;
+  padding: 30px;
+
+
+}
+
+#winLose {
+  background-color: #a9d8cb;
+  margin-bottom: 20px;
+
+}
+
+#yourScore {
+  background-color: #4f917f;
+  padding: 25px;
+  margin-top: 20px;
+
+}
+
+#footer {
+  background-color: #189e79;
+  width: 100%;
+  clear: both;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Encode Sans Condensed', sans-serif;
+
+}
+
+.images {
+  margin: auto;
+}
+
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
+
+

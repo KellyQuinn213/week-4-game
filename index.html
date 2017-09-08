@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Gem Collector</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <!--Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Permanent+Marker" rel="stylesheet">
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+
+<body>
+    <header id="masthead">
+
+      GEM COLLECTOR
+      
+    </header>
+
+  <div class="container">
+    <div id="main-container" class="container">
+        <section class="instructions">
+            <h1>How to Play</h1>
+            <br>
+            <p> There are four gems below. Each gem containers a different numerical value.</p>
+            <br>
+            <p> By clicking a gem you will add a specific amount to your total score.</p>
+            <br>
+            <p> To win, match your score to the number in the box!</p>
+            <br>
+            <p> If your score exceeds the number, you lose!</p>
+        </section>
+
+        <section id="randomNumber" class="container"> 
+        <h3>Number to Match: </h3>         
+        </section>
+
+
+        <section id="winLose" class="container">
+            <h3>Wins: </h3>
+            <h3>Losses: </h3>
+        </section>
+
+        <section class="images">
+            <img src="assets/images/ruby.jpeg" id="ruby" alt="Ruby" height="150px" width="150px">
+            <img src="assets/images/pearl.jpeg" id="pearl" alt="Pearl" height="150px" width="150px">
+            <img src="assets/images/amey.jpeg" id="ameythyst" alt="Ameythyst" height="150px" width="150px">
+            <img src="assets/images/diamond.jpeg" id="diamond" alt="Diamond" height="150px" width="175px">
+        </section>
+
+        <section id="yourScore">
+            <h3> Your Score: </h3>
+        </section>
+    </div>
+    </div>
+
+    <footer>
+        <div id="footer">
+            Copyright &copy; 2017 Kelly Quinn: Muggle
+        </div>
+    </footer>
+
+<!-- To be externally linked later -->
+<script type="text/javascript">
+
+// JavaScript function that wraps everything
+$(document).ready(function() {
+
+  //Number randomizer for "Number to match"
+
+  //On click button functions for each gem
+ $("#ruby").on( "click", function() {
+  alert("hi!");
+});
+
+ $("#pearl").on( "click", function() {
+  alert("hi!");
+});
+
+ $("#ameythyst").on( "click", function() {
+  alert("hi!");
+});
+
+ $("#diamond").on( "click", function() {
+  alert("hi!");
+});
+
+  //Tally "Your Score" with each gem click
+
+  //Add value of 1 to either win or lose
+
+
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
