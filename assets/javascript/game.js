@@ -32,14 +32,14 @@ $(document).ready(function() {
         console.log("reset");
 
         // 1. When player wins or loses the game, the page re-randomizes values for number to match and gems
-        //numberToMatch -- re-randomize
-        //Ruby, Pearl, Amethyst, Diamond re-radomize  
+        
+        //Ruby, Pearl, Amethyst, Diamond re-radomize call function() 
         randomizeGems();
 
         // 2. resets both sum and tally array to 0
         sum = 0;
 
-        //Number randomizers for "Number to match" and gem values
+        //numberToMatch -- re-randomize
         numberToMatch = Math.floor(25 + Math.random() * 100);
         $("#number").html(numberToMatch);
         console.log("Number to match:" + numberToMatch);
@@ -62,9 +62,10 @@ $(document).ready(function() {
             alert("You win!");
             console.log("Win count:" + winCounter);
 
+            //If player wins, call reset fuction()
             reset();
 
-            //if the sum of players guesses exceed the number to match, increase losses by 1
+        //if the sum of players guesses exceed the number to match, increase losses by 1
 
         } else if (sum > numberToMatch) {
             lossCounter++;
@@ -73,6 +74,7 @@ $(document).ready(function() {
             alert("You lose!");
             console.log("Loss Count:" + lossCounter);
 
+            //If player loses, call reset fuction()
             reset();
         }
 
